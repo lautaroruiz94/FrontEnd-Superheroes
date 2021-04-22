@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+section {
+    margin: auto;
+    width:45%;
+    position: relative;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+input {
+    width: 95%;
+    height: 60px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50;
+    font-family: 'Karla', sans-serif;
+    font-size: 400;
+    
+}
+section p {
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Karla', sans-serif;
+}
+
+.login{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 300%;
+    padding-bottom: 5%;
+    color: #333333;
+
+
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    font-family: 'Karla', sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #00669f;
+    
+}
+
+section p a {
+    text-decoration: none;
+    color: #00669f;
+    font-family: 'Karla', sans-serif;
+}
+
+.boton{
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    border: 0;
+}
+
+.ph::placeholder {
+    color: #333333;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+select{
+    width: 95%;
+    height: 60px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50;
+    font-family: 'Karla', sans-serif;
+    font-size: 400;
+}
+
+.botonR {
+    width: 47%;
+
+    border: 0;
+    text-align: center;
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    font-size: 150%;
+
+}
+
+textarea {
+    width: 95%;
+    margin-top: 25px;
+}
+
+/* Estilos Heroes */
+
+.imghero {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: 400px;
+    position: absolute;
+    top: -70px;
+    left: 80px;
+    
+    
+}
+
+.card-fondo{
+background-position: 75% ;
+padding: 100px;
+background-size: cover;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+position: relative;
+
+}
+.card-texto{
+    background-color: #F3F3F3;
+    padding: 70px 10px 10px 10px;
+    
+    position: relative;
+}
+.batman{
+    background-image: url("../img/bg-batman.jpg");
+
+}
+.mujer-maravilla{
+    background-image: url("../img/bg-harley.png")
+}
+.superman{
+    background-image: url("../img/bg-superman.jpg");
+}
+
+.card{
+    width: 300px;     
+    margin-left: 5%;
+    float: left;
+    height: 500px;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    margin-bottom: 10%;
+   
+}
+
+.card-texto {
+    background-color: #F3F3F3;
+    width: 300px;
+    
+}
+
+.card-texto p{
+    text-align: justify;
+    padding: 5px;
+}
+
+i{
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.sectionHero{
+    width: 80%;
+
+}
+
+h2{
+    text-align: center;
+    font-family:'Karla', sans-serif ;
+}
+
+.harley{
+    background-image: url(../img/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+}
+
+.card-harley{
+    background-color: #F3F3F3;
+    width: 190%;
+    height: 450px;
+    
+    position: relative;
+    margin-top: 25%;
+    border-radius: 50px;
+}
+
+.imgHarley {
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 210px;
+}
+
+.descri {
+    padding-top: 15%;
+}
+
+.descri p {
+    padding: 25px;
+    text-align: justify;
+    font-family:'Karla', sans-serif ;
+}
+
+.home {
+    background-color:  #2C0187;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    font-family:'Karla', sans-serif ;
+}
+
+.corasao {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.vermas {
+    background  :linear-gradient(145deg, #f0f0f0, #cacaca);
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 30%;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    border-radius: 25px;
+    font-family:'Karla', sans-serif ;
+}
+
+.vermas:hover {
+    box-shadow: inset 4px 4px 10px -1px rgba(0, 0, 0, 0.15),
+        inset -4px -4px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.formulario {
+    width: 50%;
+    height: 80%;
+    background-color: #00669f;
+    margin: auto;
+    border-radius: 50px;
+    position: absolute;
+    left: 25%;
+    top: 184px;
+}
+
+.inputSuper{
+    width: 90%;
+    height: 50px;
+}
+
+textarea {
+    width: 50%;
+}
+
+fieldset {
+    width: 50%;
+    float: left;
+}

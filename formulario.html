@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="descuentos">
+        <p>20% de descuento en todos los productos</p>
+    </div>
+    
+    <header>
+        <img src="img/OBJECTS.svg" alt="">
+         <h1 class="nombreTienda">Hero Store</h1>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="contacto.html"> Contacto </a></li>
+            <li> <a href="registro.html"> Registrarme</a></li>
+            <li> <a href="login.html">  Ingresar </a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="formulario">
+            <h2>Anadí tu super</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+
+            <fieldset>
+            <form action="">
+            <label for="nombre">Nombre</label>
+            <input class="inputSuper" id="nombre"type="text" placeholder="nombre">
+            
+            
+
+            <label for="fecha">Fecha</label>
+            <input class="inputSuper" type="date" name="fecha" id="fecha">
+
+
+            <textarea name="descripcion" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
+
+            
+            
+            </fieldset>
+
+            <fieldset>
+
+
+            <label for="especie"></label>
+            <select class="inputSuper" name="especie" id="especie">
+
+                    <option value=""selected>Especie</option>
+                    <option value="Cyborg">Cyborg</option>
+                    <option value="Extraterrestre">Extraterrestre</option>
+                    <option value="Humano">Humano</option>
+                    <option value="Murcielago">Murcielago</option>
+                    <option value="otro_bicho">otro_bicho</option>
+
+            <label for="agregar_foto">Agregar Foto</label>
+            <input  class="inputSuper" type="file" id="agregar_foto" name="seleccionar_archivo">
+
+            <label for="poder">Poder</label>
+            <input type="checkbox" id="poder" value="poder">
+            
+            <label for="personaje">Tipo de Personaje</label>
+            <input type="radio" name="" id="personaje" value="personaje">
+
+            </select>
+
+
+            </fieldset>
+            
+            </form>
+
+        </section>
+
+
+    </main>
+    
+    <footer class="footerHero">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

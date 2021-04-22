@@ -1,0 +1,13 @@
+
+
+footer p {
+    text-align: center;
+    background-color: #00669f;
+    color: white;
+    
+}
+
+.footerHero {
+    position: fixed;
+  bottom: 0;   
+}
